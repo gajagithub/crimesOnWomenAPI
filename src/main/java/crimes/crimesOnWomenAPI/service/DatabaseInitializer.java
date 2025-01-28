@@ -17,6 +17,7 @@ public class DatabaseInitializer {
 
     @PostConstruct
     public void init() {
+        System.out.println("Initializing the database with sample data.>>>>>>>>>>>>>>>>>>>..");
         // Populating initial data
         repository.save(new CrimeStatistics(1, "ANDHRA PRADESH", 2001, 871, 765, 420, 3544, 2271, 5791, 7));
         repository.save(new CrimeStatistics(2, "ARUNACHAL PRADESH", 2001, 33, 55, 0, 78, 3, 5,5 ));

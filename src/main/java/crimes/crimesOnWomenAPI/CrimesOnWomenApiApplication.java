@@ -3,7 +3,7 @@ package crimes.crimesOnWomenAPI;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "crimes.crimesOnWomenAPI")
 public class CrimesOnWomenApiApplication {
 
 	public static void main(String[] args) {
