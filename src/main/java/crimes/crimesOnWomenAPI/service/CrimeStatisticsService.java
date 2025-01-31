@@ -21,8 +21,8 @@ public class CrimeStatisticsService {
         return repository.findByState(state);
     }
 
-    public List<CrimeStatistics> getStatisticsByYear(Integer crimeYear) {
-        return repository.findByCrimeYear(crimeYear);
-    }
+//    public List<CrimeStatistics> getStatisticsByYear(Integer crimeYear) {
+//        return repository.findByCrimeYear(crimeYear);
+//    }
 
 }

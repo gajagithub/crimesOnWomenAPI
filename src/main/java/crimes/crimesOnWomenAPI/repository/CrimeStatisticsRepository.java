@@ -5,6 +5,6 @@ import java.util.List;
 
 public interface CrimeStatisticsRepository extends JpaRepository<CrimeStatistics, Integer> {
     List<CrimeStatistics> findByState(String state);
-    List<CrimeStatistics> findByCrimeYear(Integer crimeYear);
+//    List<CrimeStatistics> findByCrimeYear(Integer crimeYear);
 }
 

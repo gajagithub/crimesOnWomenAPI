@@ -27,10 +27,10 @@ public class CrimeStatisticsController {
         return service.getStatisticsByState(state);
     }
 
-    // Get statistics by year
-    @GetMapping("/year/{year}")
-    public List<CrimeStatistics> getStatisticsByYear(@PathVariable Integer year) {
-        return service.getStatisticsByYear(year);
-    }
+//    // Get statistics by year
+//    @GetMapping("/year/{year}")
+//    public List<CrimeStatistics> getStatisticsByYear(@PathVariable Integer year) {
+//        return service.getStatisticsByYear(year);
+//    }
 
 }
