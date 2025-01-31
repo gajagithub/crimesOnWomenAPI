@@ -18,7 +18,7 @@ public class CrimeStatisticsService {
     }
 
     public List<CrimeStatistics> getStatisticsByState(String state) {
-        return repository.findByState(state);
+        return repository.findByStateOrderByCrimeYearDesc(state);
     }
 
 //    public List<CrimeStatistics> getStatisticsByYear(Integer crimeYear) {
