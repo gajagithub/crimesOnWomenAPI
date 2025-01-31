@@ -104,8 +104,18 @@ public class CrimeStatistics {
             this.wt = wt;
         }
 
-    public CrimeStatistics(int i, String andhraPradesh, int i1, int i2, int i3, int i4, int i5, int i6, int i7, int i8) {
+    public CrimeStatistics( String state, int crimeYear, int rape, int ka, int dd, int aow, int aom, int dv, int wt) {
+            this.state = state;
+            this.crimeYear = crimeYear;
+            this.rape = rape;
+            this.ka = ka;
+            this.dd = dd;
+            this.aow = aow;
+            this.aom = aom;
+            this.dv = dv;
+            this.wt = wt;
     }
     public CrimeStatistics(){}
 
     }
+
